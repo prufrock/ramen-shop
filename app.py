@@ -17,7 +17,7 @@ def get_ramen_noodles_count():
             if retries == 0:
                 raise exc
             retries -= 1
-            time.sleep(0.5)
+            time.sleep(0.50)
 
 @app.route('/')
 def hello():
